@@ -13,7 +13,7 @@
 Manage tax records, financial information, user authentication, and secure data handling through a modern Angular-powered web application.
 
 
-[🌐 Live Demo](#https://taxpal-ten.vercel.app/login) · [📧 Contact](#arpitasinha9600@gmail.com) · [⭐ Star Repository](https://github.com/Arpita-Sinha-07/Taxpal-Full-Stack)
+[🌐 Live Demo](https://taxpal-ten.vercel.app/login) · [📧 Contact](#arpitasinha9600@gmail.com) · [⭐ Star Repository](https://github.com/Arpita-Sinha-07/Taxpal-Full-Stack)
 
 
 
