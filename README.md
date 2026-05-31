@@ -479,32 +479,6 @@ http://localhost:3000
 
 ---
 
-# 🤝 Contributing
-
-Contributions are welcome.
-
-### Steps
-
-```bash
-1. Fork Repository
-
-2. Create Feature Branch
-
-git checkout -b feature/new-feature
-
-3. Commit Changes
-
-git commit -m "Added new feature"
-
-4. Push Changes
-
-git push origin feature/new-feature
-
-5. Create Pull Request
-```
-
----
-
 # 📝 License
 
 Licensed under the MIT License.
