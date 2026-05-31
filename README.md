@@ -12,7 +12,10 @@
 
 Manage tax records, financial information, user authentication, and secure data handling through a modern Angular-powered web application.
 
-[⭐ Star Repository](https://github.com/Arpita-Sinha-07/Taxpal-Full-Stack) • [🐛 Report Issues](https://github.com/Arpita-Sinha-07/Taxpal-Full-Stack/issues)
+
+[🌐 Live Demo](#https://taxpal-ten.vercel.app/) · [📧 Contact](#arpitasinha9600@gmail.com) · [⭐ Star Repository](https://github.com/Arpita-Sinha-07/Taxpal-Full-Stack)
+
+
 
 </div>
 
@@ -507,3 +510,9 @@ Licensed under the MIT License.
 ![GitHub forks](https://img.shields.io/github/forks/Arpita-Sinha-07/Taxpal-Full-Stack?style=social)
 
 </div>
+
+
+
+
+
+
