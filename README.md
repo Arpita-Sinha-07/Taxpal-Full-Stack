@@ -1,16 +1,18 @@
-# 💰 TaxPal - Full Stack Tax Management Platform
+# 💰 TaxPal - Angular Full Stack Tax Management System
 
 <div align="center">
 
-![TaxPal](https://img.shields.io/badge/TaxPal-Full%20Stack-success?style=for-the-badge)
-![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge\&logo=react)
+![Angular](https://img.shields.io/badge/Angular-17-DD0031?style=for-the-badge\&logo=angular)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge\&logo=typescript)
 ![Node.js](https://img.shields.io/badge/Node.js-Backend-339933?style=for-the-badge\&logo=node.js)
-![MongoDB](https://img.shields.io/badge/MongoDB-Database-47A248?style=for-the-badge\&logo=mongodb)
 ![Express](https://img.shields.io/badge/Express.js-API-000000?style=for-the-badge\&logo=express)
+![MongoDB](https://img.shields.io/badge/MongoDB-Database-47A248?style=for-the-badge\&logo=mongodb)
 
-**A complete full-stack tax filing and financial management platform designed to simplify tax calculations, filing processes, and financial record management.**
+### 🚀 A Full-Stack Tax Management Platform Built Using the MEAN Stack
 
-[🌐 Live Demo](#https://taxpal-ten.vercel.app/) · [📧 Contact](#arpitasinha9600@gmail.com) · [⭐ Star Repository](https://github.com/Arpita-Sinha-07/Taxpal-Full-Stack)
+Manage tax records, financial information, user authentication, and secure data handling through a modern Angular-powered web application.
+
+[⭐ Star Repository](https://github.com/Arpita-Sinha-07/Taxpal-Full-Stack) • [🐛 Report Issues](https://github.com/Arpita-Sinha-07/Taxpal-Full-Stack/issues)
 
 </div>
 
@@ -18,56 +20,119 @@
 
 # 📋 Table of Contents
 
-* [About](#about)
-* [Features](#features)
-* [Tech Stack](#tech-stack)
-* [Quick Start](#quick-start)
-* [Project Structure](#project-structure)
-* [Modules](#modules)
-* [API Endpoints](#api-endpoints)
-* [Database Design](#database-design)
-* [Deployment](#deployment)
-* [Future Enhancements](#future-enhancements)
-* [Contributing](#contributing)
-* [License](#license)
+* About
+* Features
+* Tech Stack
+* Architecture
+* Installation
+* Environment Setup
+* Project Structure
+* Available Scripts
+* API Overview
+* Deployment
+* Future Enhancements
+* Contributing
+* License
 
 ---
 
 # 🎯 About
 
-**TaxPal** is a modern full-stack tax management application that helps users efficiently manage taxes, financial records, deductions, and filing workflows. The platform provides a streamlined experience for individuals and businesses to organize their tax-related information in one place.
+**TaxPal** is a full-stack tax management application developed using the **MEAN Stack (MongoDB, Express.js, Angular, Node.js)**.
 
-### 🎨 Vision
-
-* Simplify tax filing processes
-* Reduce manual calculation errors
-* Provide secure financial record management
-* Deliver an intuitive and user-friendly experience
-* Enable faster financial reporting and tax preparation
+The platform is designed to simplify tax-related operations by providing users with a centralized dashboard to manage financial records, tax calculations, filing information, and secure document storage.
 
 ---
 
 # ✨ Features
 
-## 🚀 Core Features
+## 👤 Authentication & Security
 
-* 📊 **Tax Dashboard** - Overview of tax records and financial summaries
-* 🧾 **Tax Filing Management** - Create and manage tax submissions
-* 👤 **User Authentication** - Secure registration and login system
-* 📂 **Document Management** - Upload and manage financial documents
-* 💰 **Tax Calculations** - Automated tax calculations and estimates
-* 📈 **Financial Tracking** - Monitor income, expenses, and deductions
-* 🔐 **Secure Data Storage** - Protected user and financial information
-* 📱 **Responsive Design** - Optimized for all devices
+* JWT Authentication
+* Secure Login & Registration
+* Password Encryption using bcrypt
+* Protected Routes & Middleware
+* Session Management
 
-## 🎯 Highlights
+---
 
-* Real-time data updates
-* User-friendly dashboard
-* RESTful API architecture
-* Secure authentication flow
-* Scalable backend design
-* Clean and modern UI
+## 📊 Dashboard
+
+* Tax Overview Dashboard
+* Income & Expense Tracking
+* Financial Summary Cards
+* Real-Time Data Updates
+
+---
+
+## 💰 Tax Management
+
+* Create Tax Records
+* Update Existing Records
+* Tax Calculation Assistance
+* Filing Status Monitoring
+* Historical Tax Data
+
+---
+
+## 📂 Document Handling
+
+* Upload Financial Documents
+* Secure Storage Management
+* Tax Record Attachments
+* Organized User Files
+
+---
+
+## 📱 User Experience
+
+* Responsive Angular UI
+* Mobile-Friendly Layout
+* Fast Navigation
+* Modern Dashboard Design
+* Reusable Angular Components
+
+---
+
+# 🏗️ Architecture
+
+### Frontend
+
+Built using Angular with TypeScript.
+
+Features include:
+
+* Angular Components
+* Angular Services
+* Angular Routing
+* Reactive Forms
+* HTTP Client Integration
+* Guards & Interceptors
+
+---
+
+### Backend
+
+Built using Node.js and Express.
+
+Includes:
+
+* REST APIs
+* Authentication Middleware
+* MongoDB Integration
+* Error Handling
+* API Security
+
+---
+
+### Database
+
+MongoDB stores:
+
+* User Information
+* Tax Records
+* Financial Data
+* Uploaded Documents
 
 ---
 
@@ -75,54 +140,65 @@
 
 ## Frontend
 
-* **React.js**
-* **JavaScript (ES6+)**
-* **HTML5**
-* **CSS3**
-* **Bootstrap / Tailwind CSS**
-* **Axios**
+* Angular
+* TypeScript
+* HTML5
+* SCSS / CSS
+* Angular Router
+* Angular Forms
+* RxJS
+
+---
 
 ## Backend
 
-* **Node.js**
-* **Express.js**
-* **REST API**
+* Node.js
+* Express.js
+* TypeScript
+
+---
 
 ## Database
 
-* **MongoDB**
-* **Mongoose ODM**
+* MongoDB
+* Mongoose
 
-## Authentication & Security
+---
 
-* **JWT Authentication**
-* **bcrypt.js**
-* **Protected Routes**
+## Authentication
+
+* JSON Web Tokens (JWT)
+* bcrypt.js
+
+---
 
 ## Development Tools
 
-* **Git & GitHub**
-* **Postman**
-* **VS Code**
-* **Nodemon**
+* Angular CLI
+* Nodemon
+* ESLint
+* Git & GitHub
+* Postman
 
 ---
 
-# 🚀 Quick Start
+# 🚀 Installation
 
 ## Prerequisites
 
-Make sure you have installed:
+Install the following:
 
-* Node.js (v18+ recommended)
+* Node.js
 * MongoDB
-* Git
+* Angular CLI
+
+```bash
+npm install -g @angular/cli
+```
 
 ---
 
-## Installation
-
-### 1️⃣ Clone the Repository
+## Clone Repository
 
 ```bash
 git clone https://github.com/Arpita-Sinha-07/Taxpal-Full-Stack.git
@@ -130,55 +206,55 @@ git clone https://github.com/Arpita-Sinha-07/Taxpal-Full-Stack.git
 cd Taxpal-Full-Stack
 ```
 
-### 2️⃣ Install Dependencies
+---
 
-#### Backend
-
-```bash
-cd backend
-npm install
-```
-
-#### Frontend
+## Install Dependencies
 
 ```bash
-cd frontend
 npm install
 ```
 
 ---
 
-### 3️⃣ Configure Environment Variables
+# ⚙️ Environment Setup
 
-Create a `.env` file in the backend directory:
+Create a `.env` file:
 
 ```env
-PORT=5000
+PORT=3000
 
 MONGO_URI=your_mongodb_connection_string
 
-JWT_SECRET=your_secret_key
+JWT_SECRET=your_jwt_secret
 ```
 
 ---
 
-### 4️⃣ Run the Application
+# ▶️ Running the Application
 
-#### Start Backend
+## Development Mode
+
+Runs Angular, Express, and MongoDB with file watching.
 
 ```bash
-npm run server
+npm run dev
 ```
 
-#### Start Frontend
+Application will be available at:
 
 ```bash
-npm start
+http://localhost:4200
 ```
 
 ---
 
-### 5️⃣ Open Browser
+## Production Mode
+
+```bash
+npm run prod
+```
+
+Production server:
 
 ```bash
 http://localhost:3000
@@ -186,227 +262,262 @@ http://localhost:3000
 
 ---
 
-# 📁 Project Structure
+## Manual Mode
 
-```bash
-Taxpal-Full-Stack/
-│
-├── client/
-│   ├── public/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── services/
-│   │   ├── context/
-│   │   ├── assets/
-│   │   └── App.js
-│
-├── server/
-│   ├── controllers/
-│   ├── routes/
-│   ├── models/
-│   ├── middleware/
-│   ├── config/
-│   ├── utils/
-│   └── server.js
-│
-├── .env
-├── package.json
-└── README.md
-```
-
----
-
-# 📄 Modules
-
-## 👤 Authentication Module
-
-* User Registration
-* Login & Logout
-* JWT Authentication
-* Password Encryption
-
----
-
-## 📊 Dashboard Module
-
-* Tax Summary
-* Income Tracking
-* Expense Overview
-* Financial Insights
-
----
-
-## 🧾 Tax Filing Module
-
-* Create Tax Returns
-* Save Drafts
-* Submit Tax Reports
-* Track Filing Status
-
----
-
-## 📂 Document Module
-
-* Upload Documents
-* View Uploaded Files
-* Manage Tax Records
-* Secure Storage
-
----
-
-## 💰 Financial Records Module
-
-* Income Management
-* Expense Tracking
-* Deduction Records
-* Tax History
-
----
-
-# 🔌 API Endpoints
-
-## Authentication
-
-```http
-POST /api/auth/register
-POST /api/auth/login
-GET  /api/auth/profile
-```
-
-## Tax Management
-
-```http
-GET    /api/tax
-POST   /api/tax
-PUT    /api/tax/:id
-DELETE /api/tax/:id
-```
-
-## Documents
-
-```http
-POST   /api/documents/upload
-GET    /api/documents
-DELETE /api/documents/:id
-```
-
----
-
-# 🗄️ Database Design
-
-### User Collection
-
-```js
-{
-  name: String,
-  email: String,
-  password: String,
-  createdAt: Date
-}
-```
-
-### Tax Record Collection
-
-```js
-{
-  userId: ObjectId,
-  income: Number,
-  expenses: Number,
-  deductions: Number,
-  taxAmount: Number,
-  createdAt: Date
-}
-```
-
----
-
-# 🌐 Deployment
-
-## Frontend Deployment
-
-### Vercel
+### Build Angular Frontend
 
 ```bash
 npm run build
 ```
 
-Deploy using:
+### Compile Backend
+
+```bash
+npm run predev
+```
+
+### Start MongoDB
+
+```bash
+mongod
+```
+
+### Start Application
+
+```bash
+npm start
+```
+
+---
+
+# 📁 Project Structure
+
+```bash
+Taxpal-Full-Stack
+│
+├── client/
+│   ├── src/
+│   │   ├── app/
+│   │   │   ├── components/
+│   │   │   ├── services/
+│   │   │   ├── pages/
+│   │   │   ├── guards/
+│   │   │   └── models/
+│   │   │
+│   │   ├── assets/
+│   │   ├── environments/
+│   │   └── styles/
+│
+├── server/
+│   ├── controllers/
+│   ├── routes/
+│   ├── middleware/
+│   ├── models/
+│   ├── config/
+│   └── app.ts
+│
+├── angular.json
+├── package.json
+├── tsconfig.json
+├── docker-compose.yml
+└── README.md
+```
+
+---
+
+# 📜 Available Scripts
+
+### Development
+
+```bash
+npm run dev
+```
+
+Runs:
+
+* Angular Build Watcher
+* Express Server
+* MongoDB
+
+---
+
+### Production
+
+```bash
+npm run prod
+```
+
+Runs optimized production build.
+
+---
+
+### Frontend Testing
+
+```bash
+ng test
+```
+
+Runs Angular unit tests using Karma.
+
+---
+
+### Backend Testing
+
+```bash
+npm run test:be
+```
+
+Runs backend tests using Jest.
+
+---
+
+### Linting
+
+```bash
+npm run lint
+```
+
+Checks:
+
+* Angular ESLint
+* HTML Linting
+* SCSS Linting
+
+---
+
+# 🔌 API Overview
+
+## Authentication
+
+```http
+POST /api/login
+
+POST /api/register
+
+GET /api/profile
+```
+
+---
+
+## Tax Records
+
+```http
+GET /api/tax
+
+POST /api/tax
+
+PUT /api/tax/:id
+
+DELETE /api/tax/:id
+```
+
+---
+
+## Documents
+
+```http
+POST /api/upload
+
+GET /api/documents
+
+DELETE /api/documents/:id
+```
+
+---
+
+# 🐳 Docker Support
+
+Run the entire application using Docker:
+
+```bash
+docker-compose up
+```
+
+Application:
+
+```bash
+http://localhost:3000
+```
+
+---
+
+# ☁️ Deployment
+
+## Frontend
 
 * Vercel
 * Netlify
+* Firebase Hosting
 
 ---
 
-## Backend Deployment
-
-Deploy API using:
+## Backend
 
 * Render
 * Railway
-* Cyclic
 * AWS EC2
+* DigitalOcean
 
 ---
 
-## Database Hosting
+## Database
 
 * MongoDB Atlas
 
 ---
 
-# 📊 Performance Features
+# 📈 Future Enhancements
 
-* ⚡ Fast API Responses
-* 🔒 Secure Authentication
-* 📱 Mobile Responsive Design
-* 🚀 Optimized React Rendering
-* 📈 Scalable Backend Architecture
+* [ ] AI Tax Suggestions
+* [ ] GST Filing Integration
+* [ ] Tax Report PDF Export
+* [ ] Email Notifications
+* [ ] Admin Dashboard
+* [ ] Multi-User Organization Accounts
+* [ ] Analytics & Reports
+* [ ] Mobile Application
 
 ---
 
 # 🤝 Contributing
 
-Contributions are welcome!
+Contributions are welcome.
 
 ### Steps
 
 ```bash
-1. Fork the repository
-2. Create a new branch
-3. Make your changes
-4. Commit changes
-5. Push branch
-6. Create Pull Request
+1. Fork Repository
+
+2. Create Feature Branch
+
+git checkout -b feature/new-feature
+
+3. Commit Changes
+
+git commit -m "Added new feature"
+
+4. Push Changes
+
+git push origin feature/new-feature
+
+5. Create Pull Request
 ```
-
----
-
-# 📈 Future Enhancements
-
-* [ ] Tax Report PDF Export
-* [ ] Email Notifications
-* [ ] Multi-user Business Accounts
-* [ ] AI-Based Tax Suggestions
-* [ ] GST Filing Support
-* [ ] Financial Analytics Dashboard
-* [ ] Cloud Document Storage
-* [ ] Mobile Application
 
 ---
 
 # 📝 License
 
-This project is licensed under the **MIT License**.
+Licensed under the MIT License.
 
 ---
 
 # 🙏 Acknowledgements
 
-* React.js
+* Angular
 * Node.js
 * Express.js
 * MongoDB
+* TypeScript
 * JWT Authentication
 * Open Source Community
 
@@ -414,9 +525,9 @@ This project is licensed under the **MIT License**.
 
 <div align="center">
 
-### ⭐ If you found this project useful, give it a star!
+## ⭐ Star this repository if you found it useful
 
-**Made with ❤️ by Arpita Sinha**
+### Made with ❤️ by Arpita Sinha
 
 ![GitHub stars](https://img.shields.io/github/stars/Arpita-Sinha-07/Taxpal-Full-Stack?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/Arpita-Sinha-07/Taxpal-Full-Stack?style=social)
